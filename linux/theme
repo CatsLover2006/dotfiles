@@ -1,0 +1,16 @@
+=========== CLI ===========
+Terminal Font:  Terminus 16 Bold
+                ter-v16b (@1x)
+                ter-v32b (@2x)
+=========== GUI ===========
+DE:             XFCE4
+Window Manager: XFWM4
+WM Theme:       Lavanda-Sea-Dark
+GTK2 Theme:     Lavanda-Sea-Dark
+GTK3 Theme:     Lavanda-Sea-Dark
+GTK4 Theme:     Lavanda-Sea-Dark
+QT5 Theme:      qt5-styleplugins
+QT6 Theme:      qt6gtk2
+Icon Theme:     Reversal-blue-dark
+Default Font:   Sans Regular
+Monospace Font: Monospace Regular
