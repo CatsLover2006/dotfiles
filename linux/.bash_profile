@@ -5,7 +5,7 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 export XCURSOR_THEME=Qogir-cursors
-export QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=gtk3
 export CALIBRE_USE_DARK_PALETTE=1
 export MOZ_USE_XINPUT2=1
 
