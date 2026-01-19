@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# machine-specific env vars
+[[ -f /var/.machine ]] && . /var/.machine
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
@@ -34,7 +37,8 @@ export DEVKITPPC=/opt/devkitpro/devkitPPC
 export VITASDK=/usr/local/vitasdk
 export PATH=$VITASDK/bin:$PATH # add vitasdk tool to $PATH
 
-# make updating stuff easier (nvm, chaotic-aur)
+# make arch linux stuff easier
+alias fix_corrupted_packages="pacman -Qqn | sudo pacman -S -"
 #alias update_discord="cd ~/discord-canary && git pull && makepkg"
 #alias update_kernel_clear="cd ~/linux-clear && git pull && makepkg"
 #alias update_kernel_nitrous="cd ~/linux-nitrous && git pull && makepkg"
